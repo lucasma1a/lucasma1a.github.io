@@ -6,10 +6,6 @@
 	scroll-behavior: smooth;
 }
 
-html {
-	overflow-x-hidden;
-}
-
 a {
 	color: #0084ff;
 	text-decoration: none;
@@ -331,6 +327,7 @@ transform: rotate(45deg) translate(-5px, -7px);
 footer{
     background-color: #000;
     padding: 50px 0;
+
 }
 .footer{
     max-width: 1400px;

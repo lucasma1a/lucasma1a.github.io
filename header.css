@@ -1,0 +1,56 @@
+a {
+	color: #0084ff;
+	text-decoration: none;
+	transition: 0.3s;
+}
+  
+a:hover {
+	opacity: 0.7;
+}
+  
+nav .logo {
+	display: flex;
+	width: 10vw;
+	height: 8vh;
+
+      
+}
+  
+nav {
+	position: fixed;
+	width: 100vw;
+	z-index: 3;
+	display: flex;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	justify-content: space-around;
+	align-items: center;
+	background: #fff;
+	height: 8vh;
+	box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.5);
+}
+  
+.nav-list {
+	list-style: none;
+	display: flex;
+	
+}
+  
+.nav-list li {
+	letter-spacing: 3px;
+	margin-left: 32px;
+
+}
+
+.mobile-menu {
+	display: none;
+	cursor: pointer;
+}
+  
+.mobile-menu div {
+	width: 32px;
+	height: 2px;
+	background: #0084ff;
+	margin: 8px;
+	transition: 0.3s;
+}

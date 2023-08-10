@@ -1,0 +1,13 @@
+.slide{
+	padding-top: 10vh;
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 20s slide infinite;
+}
+
+.slide img{
+	width: 20%;
+	float:left;
+}

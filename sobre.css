@@ -1,0 +1,47 @@
+.headline {
+	font-size: 2rem;
+	color: #0033FF;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 15px;
+    letter-spacing: 2px;
+	background-color: #fff;
+	
+}
+
+
+#sobre {
+      width: 100%;
+      /*padding: 50px;*/
+  }
+  
+  #items {
+      width: 100vw;
+  }
+  
+  #items .item {
+      display: inline-flex;
+      padding: 10px;
+      margin: 15px 0;
+      font-size: 1.5rem;
+        list-style: none;
+  }
+  
+  .item svg{
+        width: 20vw;
+        height: 20vh;
+  }
+
+  #container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	background-image: linear-gradient(360deg, #0088ff, #0033FF);
+	font-family: 'Times New Roman', Times, serif,;
+
+}
+
+p{
+    color: #fff;
+}

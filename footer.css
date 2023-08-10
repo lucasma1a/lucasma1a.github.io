@@ -1,0 +1,85 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+	scroll-behavior: smooth;
+}
+
+
+
+.footer-coluna{
+	width: 100%;
+}
+
+.footer-coluna{
+	width: 50%;
+	margin-bottom: 30px;
+}
+
+
+
+
+  
+
+
+footer{
+    background-color: #000;
+    padding: 50px 0;
+
+}
+.footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+}
+.linha-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-coluna{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-coluna h4{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+.footer-coluna ul{
+    list-style: none;
+}
+.footer-col ul li{
+    margin: 10px 0;
+}
+.footer-coluna ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-coluna ul li a:hover{
+    color: #cecdcd;
+    padding-left: 10px;
+}
+
+
+.footer-coluna .form-sub input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid white;
+    color: #000;
+    background-color: #fff;
+}
+.footer-coluna .form-sub input::placeholder{
+    color: #000;
+}
